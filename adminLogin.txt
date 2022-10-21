@@ -1,0 +1,4 @@
+admin_id = 1194404057
+bot_token = 5765131280:AAFO8-EvLcZ8KNht5qJhMCJ5MH8HEFvuP50
+helpLink = https://google.com
+callBack = https://google.com

@@ -1,0 +1,44 @@
+####################################################
+###################### STEP 1 ######################
+####################################################
+
+R-URL: https://api.qiwi.com/partner/bill/v1/bills/WhiteApfel-PyQiwiP2P-30576054-234
+URL: https://api.qiwi.com/partner/bill/v1/bills/WhiteApfel-PyQiwiP2P-30576054-234
+Code: 401 Unauthorized
+Method: PUT
+
+##################### REQUEST ######################
+Headers:
+
+Host:           api.qiwi.com
+Accept-Encoding: gzip, deflate
+Connection:     keep-alive
+User-Agent:     python-httpx/0.23.0
+Accept:         application/json
+Content-Type:   application/json
+Authorization:  Bearer eyJ2ZXJzaW9uIjoiUDJQIiwiZGF0YSI6eyJwYXlpbl9tZXJjaGFudF9zaXRlX3VpZCI6InU2MjN5NC0wMCIsInVzZXJfaWQiOiI3OTIzNDk3ODA4MiIsInNlY3JldCI6ImUxNTI4YmQzY2Y1NmUxZTc5MzZiZDc3ODAyMDQyMDgzZWVmYTlkZjY5YjY0MDg2ZWUyZmZmODZlOTFhNjQ5MTcifX0="
+Content-Length: 165
+
+########### CONTENT ############
+{
+    "amount": {
+        "currency": "RUB",
+        "value": "1.00"
+    },
+    "comment": "5765131280_5911",
+    "customFields": {},
+    "customer": {},
+    "expirationDateTime": "2022-10-21T02:12:40+03:00"
+}
+######### END CONTENT ##########
+
+##################### RESPONSE #####################
+
+Headers:
+
+Server:         nginx
+Date:           Thu, 20 Oct 2022 22:42:38 GMT
+Content-Length: 0
+Connection:     keep-alive
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
